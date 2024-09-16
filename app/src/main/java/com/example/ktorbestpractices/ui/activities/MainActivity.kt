@@ -1,4 +1,4 @@
-package com.example.ktorbestpractices
+package com.example.ktorbestpractices.ui.activities
 
 import android.os.Bundle
 import androidx.activity.ComponentActivity
