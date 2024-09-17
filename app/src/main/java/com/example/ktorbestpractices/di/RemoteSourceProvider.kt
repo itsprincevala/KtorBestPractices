@@ -79,7 +79,7 @@ object RemoteSourceProvider {
     ): HttpClient {
         return client.config {
             defaultRequest {
-                url("https://dummy.restapiexample.com/api/v1/")
+                url("https://reqres.in/api/")
             }
         }
     }
