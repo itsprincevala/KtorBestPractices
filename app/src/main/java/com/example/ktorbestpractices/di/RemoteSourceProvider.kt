@@ -29,7 +29,7 @@ object RemoteSourceProvider {
     annotation class BaseHttpClient
 
     @Qualifier
-    annotation class EmployeeHttpClient
+    annotation class UserHttpClient
 
     @Qualifier
     annotation class KtorHttpClient
@@ -73,7 +73,7 @@ object RemoteSourceProvider {
     }
 
     @Provides
-    @EmployeeHttpClient
+    @UserHttpClient
     fun provideEmployeeRemoteSource(
         @BaseHttpClient client: HttpClient
     ): HttpClient {
